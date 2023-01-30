@@ -55,6 +55,12 @@ build CMakeFiles/1.dir/1.cpp.obj: CXX_COMPILER__1_Debug E$:/clion/cpp/1.cpp || c
   OBJECT_DIR = CMakeFiles\1.dir
   OBJECT_FILE_DIR = CMakeFiles\1.dir
 
+build CMakeFiles/1.dir/12.cpp.obj: CXX_COMPILER__1_Debug E$:/clion/cpp/12.cpp || cmake_object_order_depends_target_1
+  DEP_FILE = CMakeFiles\1.dir\12.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\1.dir
+  OBJECT_FILE_DIR = CMakeFiles\1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 1
@@ -63,7 +69,7 @@ build CMakeFiles/1.dir/1.cpp.obj: CXX_COMPILER__1_Debug E$:/clion/cpp/1.cpp || c
 #############################################
 # Link the executable 1.exe
 
-build 1.exe: CXX_EXECUTABLE_LINKER__1_Debug CMakeFiles/1.dir/1.cpp.obj
+build 1.exe: CXX_EXECUTABLE_LINKER__1_Debug CMakeFiles/1.dir/1.cpp.obj CMakeFiles/1.dir/12.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\1.dir
@@ -72,6 +78,45 @@ build 1.exe: CXX_EXECUTABLE_LINKER__1_Debug CMakeFiles/1.dir/1.cpp.obj
   TARGET_FILE = 1.exe
   TARGET_IMPLIB = lib1.dll.a
   TARGET_PDB = 1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 12
+
+
+#############################################
+# Order-only phony target for 12
+
+build cmake_object_order_depends_target_12: phony || CMakeFiles/12.dir
+
+build CMakeFiles/12.dir/12.cpp.obj: CXX_COMPILER__12_Debug E$:/clion/cpp/12.cpp || cmake_object_order_depends_target_12
+  DEP_FILE = CMakeFiles\12.dir\12.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\12.dir
+  OBJECT_FILE_DIR = CMakeFiles\12.dir
+
+build CMakeFiles/12.dir/1.cpp.obj: CXX_COMPILER__12_Debug E$:/clion/cpp/1.cpp || cmake_object_order_depends_target_12
+  DEP_FILE = CMakeFiles\12.dir\1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\12.dir
+  OBJECT_FILE_DIR = CMakeFiles\12.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 12
+
+
+#############################################
+# Link the executable 12.exe
+
+build 12.exe: CXX_EXECUTABLE_LINKER__12_Debug CMakeFiles/12.dir/12.cpp.obj CMakeFiles/12.dir/1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 12.exe
+  TARGET_IMPLIB = lib12.dll.a
+  TARGET_PDB = 12.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
@@ -94,6 +139,12 @@ build CMakeFiles/CMakeCXXCompilerId.dir/1.cpp.obj: CXX_COMPILER__CMakeCXXCompile
   OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
   OBJECT_FILE_DIR = CMakeFiles\CMakeCXXCompilerId.dir
 
+build CMakeFiles/CMakeCXXCompilerId.dir/12.cpp.obj: CXX_COMPILER__CMakeCXXCompilerId_Debug E$:/clion/cpp/12.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles\CMakeCXXCompilerId.dir\12.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles\CMakeCXXCompilerId.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CMakeCXXCompilerId
@@ -102,7 +153,7 @@ build CMakeFiles/CMakeCXXCompilerId.dir/1.cpp.obj: CXX_COMPILER__CMakeCXXCompile
 #############################################
 # Link the executable CMakeCXXCompilerId.exe
 
-build CMakeCXXCompilerId.exe: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj CMakeFiles/CMakeCXXCompilerId.dir/1.cpp.obj
+build CMakeCXXCompilerId.exe: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj CMakeFiles/CMakeCXXCompilerId.dir/1.cpp.obj CMakeFiles/CMakeCXXCompilerId.dir/12.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
@@ -133,6 +184,12 @@ build CMakeFiles/main.dir/1.cpp.obj: CXX_COMPILER__main_Debug E$:/clion/cpp/1.cp
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir
 
+build CMakeFiles/main.dir/12.cpp.obj: CXX_COMPILER__main_Debug E$:/clion/cpp/12.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\12.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main
@@ -141,7 +198,7 @@ build CMakeFiles/main.dir/1.cpp.obj: CXX_COMPILER__main_Debug E$:/clion/cpp/1.cp
 #############################################
 # Link the executable main.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj CMakeFiles/main.dir/1.cpp.obj
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj CMakeFiles/main.dir/1.cpp.obj CMakeFiles/main.dir/12.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir
@@ -179,6 +236,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 1: phony 1.exe
 
+build 12: phony 12.exe
+
 build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
 build main: phony main.exe
@@ -191,7 +250,7 @@ build main: phony main.exe
 #############################################
 # Folder: E:/clion/cpp/cmake-build-debug
 
-build all: phony 1.exe CMakeCXXCompilerId.exe main.exe
+build all: phony 1.exe 12.exe CMakeCXXCompilerId.exe main.exe
 
 # =============================================================================
 # Built-in targets

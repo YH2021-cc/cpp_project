@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "1.exe"
+			"path" : "main.exe"
 		},
 		{
-			"path" : "1.pdb"
+			"path" : "main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -55,11 +55,13 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2
 			]
 		}
 	],
-	"id" : "1::@6890427a1f51a3e7e1df",
+	"id" : "main::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +81,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "1",
-	"nameOnDisk" : "1.exe",
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -92,7 +94,9 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2
 			]
 		}
 	],
@@ -101,7 +105,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "12.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

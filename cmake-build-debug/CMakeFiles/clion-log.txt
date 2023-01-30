@@ -1,5 +1,6 @@
 "E:\clion\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/clion/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S E:\clion\cpp -B E:\clion\cpp\cmake-build-debug
     -- src/1.cpp will be compiled to bin/1
+    -- src/12.cpp will be compiled to bin/12
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done
